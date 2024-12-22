@@ -1,13 +1,12 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import mongoose from 'mongoose';
-import cookieParser from 'cookie-parser';
-import usersRouter from './routes/users.router.js';
-import petsRouter from './routes/pets.router.js';
-import adoptionsRouter from './routes/adoption.router.js';
-import sessionsRouter from './routes/sessions.router.js';
-import mocksRouter from './routes/mocks.router.js';
-import { serve, setup } from './utils/swagger.js';
+import express from 'express'
+import dotenv from 'dotenv'
+import cookieParser from 'cookie-parser'
+import usersRouter from './routes/users.router.js'
+import petsRouter from './routes/pets.router.js'
+import adoptionsRouter from './routes/adoption.router.js'
+import sessionsRouter from './routes/sessions.router.js'
+import mocksRouter from './routes/mocks.router.js'
+import { serve, setup } from './utils/swagger.js'
 import connectDB from './config/database.config.js'
 
 // Cargar variables de entorno desde el archivo .env
