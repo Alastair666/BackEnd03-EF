@@ -22,13 +22,12 @@
     ```sh
     https://hub.docker.com/repository/docker/alastairblackwell/backend03-ef
 
-
 ## Tabla de Contenidos
 1. [Introducción](#introducción)
 2. [Instalación](#instalación)
 3. [Variables de Entorno](#variables-de-entorno)
-4. [Implementacion 1.0](#implementacion1_0)
-5. [Implementacion 2.0](#implementacion2_0)
+4. [Implementación 1.0](#implementación-10)
+5. [Implementación 2.0](#implementación-20)
 5. [Conclusiones](#conclusiones)
 
 ## Introducción
