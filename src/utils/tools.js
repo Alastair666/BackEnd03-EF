@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 
 /**
  * Funciones de encriptación para la contraseña

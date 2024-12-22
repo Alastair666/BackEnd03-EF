@@ -20,7 +20,7 @@
     https://github.com/Alastair666/BackEnd03-EF.git
 2. Link a la imagen de Docker en Dockerhub.
     ```sh
-    https://hub.docker.com/repository/docker/alastair666/backend03-ef
+    https://hub.docker.com/repository/docker/alastairblackwell/backend03-ef
 
 
 ## Tabla de Contenidos

@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs'
 import {fileURLToPath} from 'url';
 import { dirname } from 'path';
 

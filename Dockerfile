@@ -10,9 +10,6 @@ COPY package*.json ./
 # Instalar las dependencias
 RUN npm install
 
-# Asegura la compatibilidad de bcrypt para el entorno Docker (reconstruye)
-RUN npm rebuild bcrypt --build-from-source
-
 # Copiar el resto de los archivos del proyecto al contenedor
 COPY . .
 
